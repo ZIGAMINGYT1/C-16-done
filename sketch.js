@@ -61,15 +61,15 @@ function draw() {
       fruitGroup.destroyEach();
       
        knifeSwooshSound.play();
-      // knifeSwooshSound.play;
-      // knifeSwooshSound();
-      // knifeSwooshSoundplay();
+       //knifeSwooshSound.play;
+       //knifeSwooshSound();
+      //knifeSwooshSoundplay();
 
 
       // score=score;
-       score=+2;
+       //score=+2;
       // score=2;
-      // score=score+2;
+       score=score+2;
 
     }
     else
@@ -120,7 +120,7 @@ function fruits(){
   //Increase the velocity of fruit after score 4 
 
        fruit.velocityX= (7+(score/4));
-      // fruit.velocityY= (7+(score));
+       //fruit.velocityY= (7+(score));
       // fruit.velocity= (7+(score/4));
       // fruit.velocityX= (7);
      
